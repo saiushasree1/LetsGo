@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+        <ScrollView
+            android:layout_width="411dp"
+            android:layout_height="733dp"
+            android:overScrollMode="never"
+            android:scrollbars="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <ImageButton
+                    android:id="@+id/thirdp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:clickable="true"
+                    android:src="@drawable/baseline_chevron_left_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lemon"
+                    android:text="3.Newyork,USA"
+                    android:textColor="#0B0A0A"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/newyork1" />
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="3dp"
+                    android:text="->Famous for its fashion, crazy nightlife, incredible art scene, detailed museums, world-class restaurant scene, and top-notch theater productions, to me, New York City is the beating heart of the world — which is why I called it home for six years. Every culture, language, and food is represented here. You could spend a lifetime exploring the city and never really see it all."
+                    android:textColor="#3B0707"
+                    android:textSize="18dp"
+                    app:lineHeight="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lemon"
+                    android:text="Gallery :"
+                    android:textColor="#0B0A0A"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/newyork2" />
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/newyork3new" />
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/newyork4" />
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/newyork5new" />
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

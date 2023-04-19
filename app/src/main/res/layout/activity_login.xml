@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/enrollment"
+        android:layout_width="303dp"
+        android:layout_height="81dp"
+        android:width="300dp"
+        android:height="100dp"
+        android:background="#35ffffff"
+        android:drawableStart="@drawable/baseline_person_outline_24"
+        android:drawablePadding="10dp"
+        android:hint="@string/enrollment_number"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="293dp"
+        android:layout_height="74dp"
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:shadowColor="#9C27B0"
+        android:text="@string/login"
+        android:textColor="#DFD4D4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.379" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="733dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageButton
+                android:id="@+id/mainn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:src="@drawable/baseline_navigate_next_24"
+                android:clickable="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lemon"
+                android:text="1.Paris,France"
+                android:textColor="#0B0A0A"
+                android:textSize="19sp" />
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:src="@drawable/paris2"
+                />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:text=">Europe\'s most enchanting city, Paris is known for its many monuments, especially the Eiffel Tower, Notre-Dame Cathedral, Arc de Triomphe, Opéra Garnier, Les Invalides, etc. We\'d recommend visiting between October and April if your main objective is to avoid crowds. For the warmest temperatures, October and April are the best times to visit Paris sans crowds."
+                android:textColor="#3B0707"
+                android:textSize="18dp"
+                app:lineHeight="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lemon"
+                android:text="Gallery :"
+                android:textColor="#0B0A0A"
+                android:textSize="19sp" />
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:src="@drawable/paris1"
+                />
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:src="@drawable/paris3"
+                />
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:src="@drawable/paris4"
+                />
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:src="@drawable/paris5"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
